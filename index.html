@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality Prediction</title>
+</head>
+<body>
+    <h1>Air Quality Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="soi">SOI:</label>
+        <input type="text" name="soi" required><br>
+
+        <label for="noi">NOI:</label>
+        <input type="text" name="noi" required><br>
+
+        <label for="rpi">RPI:</label>
+        <input type="text" name="rpi" required><br>
+
+        <label for="spmi">SPMI:</label>
+        <input type="text" name="spmi" required><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
